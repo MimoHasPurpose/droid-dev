@@ -6,7 +6,6 @@ Topics in Android:
 #### Langauges:
 
 1. Kotlin
-2. Electron.js
 3. React Native
 4. FLutter
 
