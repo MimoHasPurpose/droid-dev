@@ -25,3 +25,11 @@ Topics in Android:
 
 5. XML
 6. jetpack compose
+
+
+
+
+git basics:
+ 
+ - `git branch`
+ - `git switch`
