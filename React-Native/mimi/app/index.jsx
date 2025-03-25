@@ -7,11 +7,11 @@ const App = () => {
     <View style={styles.container}>
       <ImageBackground
       source={icedCoffeeImg}
-      resizeMode='cover'
+      resizeMode="cover"
       style={styles.image}
       >
         
-      <Text style={styles.title}>Cofee shop</Text>
+      <Text style={styles.title}>Coffee shop</Text>
       <Link href="/explore" style={styles.link}>Explore</Link>
       </ImageBackground>
       
@@ -34,15 +34,15 @@ const styles=StyleSheet.create({
     resizeMode:'cover',
     justifyContent:'center'
    },
-   text: {
+   title: {
     color:'white',
     fontSize:42,
     fontWeight:'bold',
     textAlign:'center',
     backgroundColor:'rgba(0,0,0,0.5)',
-    marginBottom:20,
+    marginBottom:120,
    },
-   title: {
+   link: {
     color:'white',
     fontSize:42,
     fontWeight:'bold',
