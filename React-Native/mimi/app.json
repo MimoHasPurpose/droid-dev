@@ -7,10 +7,10 @@
     "icon": "./assets/images/coffee-icon.png",
     "scheme": "myapp",
     "userInterfaceStyle": "automatic",
-    "splash":{
-      "image":"./assets/images/coffee-splash.png",
-      "resizeMode":"cover",
-      "backgroundColor":"#ffffff"
+    "splash": {
+      "image": "./assets/images/coffee-splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#ffffff"
     },
     "ios": {
       "supportsTablet": true
@@ -19,7 +19,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/coffee-splash.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.anonymous.mimi"
     },
     "web": {
       "bundler": "metro",
