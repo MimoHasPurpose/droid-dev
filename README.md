@@ -26,7 +26,9 @@ Topics in Android:
 5. XML
 6. jetpack compose
 
+#### Making  apk files from expo project:
 
+- `eas build -p android  --profile preview`
 
 
 git basics:
