@@ -8,7 +8,27 @@ void main() {
         backgroundColor: Colors.brown[700],
         centerTitle: true,
       ),
-      body: const Text('hello mimossssa!'),
+      body: const Home(),
     )
   ));
+}
+class Home extends StatelessWidget {
+  const Home({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      color:Colors.orange,
+      // width: 200,
+      // height: 100,
+      padding: const  EdgeInsets.all(20),
+      margin: const EdgeInsets.fromLTRB(10,40,0,0),
+      child: const Text("hello Ninjas!",style: TextStyle(
+        fontSize: 18,
+        letterSpacing: 4,
+        decoration: TextDecoration.underline,
+        fontStyle: FontStyle.italic
+      ),),
+    );
+  }
 }
